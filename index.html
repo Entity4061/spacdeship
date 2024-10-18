@@ -10,11 +10,13 @@
 <script src="https://threejs.org/build/three.min.js"></script>
 <script src="https://threejs.org/examples/js/controls/OrbitControls.js"></script>
 <script src="https://threejs.org/examples/js/libs/tween.min.js"></script>
-<script src="https://threejs.org/examples/jsm/loaders/RGBELoader.js"></script>
-<script src="https://threejs.org/examples/jsm/loaders/TextureLoader.js"></script>
+
+<!-- Use the non-module version of loaders -->
+<script src="https://threejs.org/examples/js/loaders/RGBELoader.js"></script>
+<script src="https://threejs.org/examples/js/loaders/TextureLoader.js"></script>
 
 <script>
-    // Ensure THREE is globally available
+    // Check if THREE is globally available
     if (!window.THREE) {
         console.error("Three.js not loaded properly");
     }
